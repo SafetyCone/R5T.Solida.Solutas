@@ -23,14 +23,14 @@ namespace R5T.Solida.Solutas
             var solutionFileSite = new SolutionFileSite()
             {
                 SolutionFile = solutionFile,
-                Path = solutionFilePath,
+                SolutionFilePath = solutionFilePath,
             };
             return solutionFileSite;
         }
 
         public void Serialize(SolutionFileSite solutionFileSite, bool overwrite = true)
         {
-            this.VisualStudioSolutionFileSerializer.Serialize(solutionFileSite.Path, solutionFileSite.SolutionFile, overwrite);
+            this.VisualStudioSolutionFileSerializer.Serialize(solutionFileSite.SolutionFilePath, solutionFileSite.SolutionFile, overwrite);
         }
     }
 }
