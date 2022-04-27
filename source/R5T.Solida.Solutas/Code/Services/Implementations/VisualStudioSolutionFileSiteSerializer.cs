@@ -1,12 +1,12 @@
-﻿using System;
+using System;
 
 using R5T.Cambridge.Types;
-using R5T.Solutas;
+using R5T.Solutas;using R5T.T0064;
 
 
 namespace R5T.Solida.Solutas
-{
-    public class VisualStudioSolutionFileSiteSerializer : IVisualStudioSolutionFileSiteSerializer
+{[ServiceImplementationMarker]
+    public class VisualStudioSolutionFileSiteSerializer : IVisualStudioSolutionFileSiteSerializer,IServiceImplementation
     {
         private IVisualStudioSolutionFileSerializer VisualStudioSolutionFileSerializer { get; }
 

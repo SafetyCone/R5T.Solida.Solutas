@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Solida.Solutas.Construc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Solida.Solutas.Testing", "R5T.Solida.Solutas.Testing\R5T.Solida.Solutas.Testing.csproj", "{3A079CC3-DFCF-488A-8E8F-ECAA5F4066F4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{67EE9DF6-3DE3-400E-9A54-75B76901B996}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.T0064", "..\..\R5T.T0064\source\R5T.T0064\R5T.T0064.csproj", "{92B97CFF-4F96-43A6-A599-2355042810BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,5 +62,20 @@ Global
 		{3A079CC3-DFCF-488A-8E8F-ECAA5F4066F4}.Release|x64.Build.0 = Release|Any CPU
 		{3A079CC3-DFCF-488A-8E8F-ECAA5F4066F4}.Release|x86.ActiveCfg = Release|Any CPU
 		{3A079CC3-DFCF-488A-8E8F-ECAA5F4066F4}.Release|x86.Build.0 = Release|Any CPU
+		{92B97CFF-4F96-43A6-A599-2355042810BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92B97CFF-4F96-43A6-A599-2355042810BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92B97CFF-4F96-43A6-A599-2355042810BF}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{92B97CFF-4F96-43A6-A599-2355042810BF}.Debug|x64.Build.0 = Debug|Any CPU
+		{92B97CFF-4F96-43A6-A599-2355042810BF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{92B97CFF-4F96-43A6-A599-2355042810BF}.Debug|x86.Build.0 = Debug|Any CPU
+		{92B97CFF-4F96-43A6-A599-2355042810BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92B97CFF-4F96-43A6-A599-2355042810BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92B97CFF-4F96-43A6-A599-2355042810BF}.Release|x64.ActiveCfg = Release|Any CPU
+		{92B97CFF-4F96-43A6-A599-2355042810BF}.Release|x64.Build.0 = Release|Any CPU
+		{92B97CFF-4F96-43A6-A599-2355042810BF}.Release|x86.ActiveCfg = Release|Any CPU
+		{92B97CFF-4F96-43A6-A599-2355042810BF}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{92B97CFF-4F96-43A6-A599-2355042810BF} = {67EE9DF6-3DE3-400E-9A54-75B76901B996}
 	EndGlobalSection
 EndGlobal
